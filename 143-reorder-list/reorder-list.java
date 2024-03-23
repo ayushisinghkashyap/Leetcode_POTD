@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-   public ListNode reverse(ListNode head) {
+    public ListNode reverse(ListNode head) {
         if (head == null) return null;
         ListNode prev = null;
         ListNode curr = head;
@@ -45,6 +45,7 @@ class Solution {
         prev.next = null;
         ListNode list1 = head;
         ListNode list2 = reverse(slow);
-        merge(list1, list2); 
+        merge(list1, list2);
+        
     }
 }

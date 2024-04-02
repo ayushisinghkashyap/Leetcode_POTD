@@ -19,6 +19,7 @@ class Solution {
             if(freqS[s.charAt(i)] != freqT[t.charAt(i)]) {
                 return false; // If different, strings are not isomorphic
             }
+            
             // Update the frequencies of characters in both strings
             freqS[s.charAt(i)] = i + 1; // Incrementing frequency of character in string s
             freqT[t.charAt(i)] = i + 1; // Incrementing frequency of character in string t

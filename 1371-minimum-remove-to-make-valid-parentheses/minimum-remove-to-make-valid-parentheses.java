@@ -1,6 +1,6 @@
 class Solution {
     public String minRemoveToMakeValid(String s) {
-         // Initialize pointers for the start and end of the string
+       // Initialize pointers for the start and end of the string
         int startPointer = 0;
         int endPointer = s.length() - 1;
 
@@ -42,7 +42,6 @@ class Solution {
         // Construct the result string from the filtered character array
         result = new String(arr).substring(0, p);
 
-        return result;
-        
+        return result;  
     }
 }

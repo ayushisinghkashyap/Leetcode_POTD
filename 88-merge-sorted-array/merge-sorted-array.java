@@ -9,6 +9,7 @@ class Solution {
             j++;
             i++;
         }
+
         Arrays.sort(nums1);
     }
 }

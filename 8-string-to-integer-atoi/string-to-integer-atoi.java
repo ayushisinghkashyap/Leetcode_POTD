@@ -12,18 +12,6 @@ class Solution {
         boolean neg = false;
         int j = 0;
         s = s.trim();
-        // for(int i=0;i<s.length();i++){
-        //     //if(s.charAt(i) == ' ') continue;
-        //     if(s.charAt(i) == '-') {
-        //         count = -1;
-        //         j=i;
-        //         break;
-        //     }
-        // }
-
-        // if(j != 0 && s.charAt(j-1)==' '){
-        //     j++;
-        // }
 
         for(int i=0;i<s.length();i++){
             if(s.charAt(i) == '-' && i ==0) {
